@@ -1,0 +1,1 @@
+print(*[char for row in input().split("|")[::-1] for char in row.split()])
